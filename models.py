@@ -1,8 +1,8 @@
 # models.py
 from datetime import date
-from werkzeug.security import generate_password_hash, check_password_hash
 
-from extensions import db 
+from extensions import db
+from werkzeug.security import check_password_hash, generate_password_hash
 
 
 class User(db.Model):

@@ -1,0 +1,6 @@
+[tool.ruff]
+target-version = "py314"
+line-length = 88
+select = ["E", "F", "I"]
+ignore = []
+src = ["app"]
